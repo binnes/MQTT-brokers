@@ -1,0 +1,14 @@
+1601893072: mosquitto version 1.6.12 starting
+1601893072: Config loaded from /mosquitto/config/mosquitto.conf.
+1601893072: Opening ipv4 listen socket on port 1883.
+1601893072: Opening ipv6 listen socket on port 1883.
+1601893072: mosquitto version 1.6.12 running
+1601893110: New connection from 172.18.0.11 on port 1883.
+1601893110: New connection from 172.18.0.11 on port 1883.
+1601893110: New client connected from 172.18.0.11 as app01 (p2, c1, k60, u'app01').
+1601893110: New client connected from 172.18.0.11 as app02 (p2, c1, k60, u'app02').
+1601894873: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1601896674: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1601898475: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1601900276: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1601902077: Saving in-memory database to /mosquitto/data/mosquitto.db.

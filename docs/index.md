@@ -34,5 +34,3 @@ Docker images used in test:
 | rabbitMQ | rabbitmq:3.8.9 | linux/386, linux/amd64, linux/arm/v7, linux/arm64/v8, linux/ppc64le, linux/s390x | Yes | No |
 
 The test was done on an Intel i9 CPU, so the linux/amd64 architecture container images were used, but the table above shows the available architectures available on Docker Hub.
-
-## 

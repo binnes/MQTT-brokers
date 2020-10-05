@@ -26,5 +26,6 @@ extra_css:
     - css/pdf-print.css
 nav:
   - Home: index.md
+  - Running Test: deploy.md
   
 google_analytics: ['UA-172132667-1', 'binnes.github.io/MQTT-brokers']
