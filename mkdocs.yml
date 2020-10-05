@@ -1,0 +1,30 @@
+site_name: Developer's guide to MQTT Brokers
+site_description: >-
+  How the choice of MQTT broker can impact the design and implementation of an IoT solution
+site_url: https://binnes.github.io/MQTT-brokers
+site_author: Brian Innes
+repo_name: binnes/MQTT-brokers
+repo_url: https://github.com/binnes/MQTT-brokers
+theme:
+    name: material
+use_directory_urls: false
+plugins:
+  - search
+  - with-pdf:
+      cover_subtitle: Solution design and implementation implications
+      output_path: pdf/mqtt-broker.pdf
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.highlight
+extra_css:
+    - css/extra.css
+    - css/pdf-print.css
+nav:
+  - Home: index.md
+  
+google_analytics: ['UA-172132667-1', 'binnes.github.io/MQTT-brokers']
