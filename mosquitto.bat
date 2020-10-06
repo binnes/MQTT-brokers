@@ -26,9 +26,9 @@ copy passwd data\mosquitto2\config\passwd
 move passwd data\mosquitto3\config\passwd
 
 REM create config file and copy to all 3 images
-copy files\mosquitto.conf data\mosquitto1\config\mosquitto.conf
-copy files\mosquitto.conf data\mosquitto2\config\mosquitto.conf
-copy files\mosquitto.conf data\mosquitto3\config\mosquitto.conf
+copy files\mosquitto1.conf data\mosquitto1\config\mosquitto.conf
+copy files\mosquitto2.conf data\mosquitto2\config\mosquitto.conf
+copy files\mosquitto3.conf data\mosquitto3\config\mosquitto.conf
 
 REM run 3 brokers, named mosquitto1, mosquitto2 and mosquitto3
 docker run -itd -v %cd%\data\mosquitto1\config:/mosquitto/config -v %cd%\data\mosquitto1\data:/mosquitto/data -v %cd%\data\mosquitto1\log:/mosquitto/log --network brokers --name mosquitto1 %MOSQUITTO_IMAGE%

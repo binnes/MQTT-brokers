@@ -14,6 +14,8 @@ This project assumes you know the basics of MQTT, it is not an MQTT tutorial.
 
 The deploy script will setup a Docker network then deploy 3 instances of each of the brokers included in the test.  For EMQX and Rabbit MQ the brokers will be configured as a cluster.
 
+![Broker Setup](images/brokerSetup.png){style="width: 80%" .center}
+
 A Node-RED instance is then deployed with a test flow added.  This Node-RED flow allows you to test each of the broker configurations, as there are 2 connections made to each of the 3 instances of broker.  Where the broker supports shared subscriptions, the Node-RED node will create a shared subscription.
 
 ![Node-RED flow](images/node-red-flow.png){style="width: 80%" .center}
