@@ -8,9 +8,8 @@ This project will only use Open Source brokers to allow developers to further ex
 
 Some of the features to be explored are:
 
-- Scalability for resilience (cluster / bridge strategy)
-- Shared subscriptions
-- Security features (user password, server TLS certificate, client TLS certificates)
+- Scalability for resilience and load (cluster / bridge strategy)
+- Client scalability (options with and without Shared subscriptions)
 - Bridge to other brokers (same and different broker types)
 
 ## Brokers to be considered

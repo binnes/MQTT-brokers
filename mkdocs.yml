@@ -27,5 +27,8 @@ extra_css:
 nav:
   - Home: index.md
   - Running Test: deploy.md
+  - Clustering: clusteredBrokers.md
+  - Subscriptions: sharedSubscriptions.md
+  - Bridges: bridges.md
   
 google_analytics: ['UA-172132667-1', 'binnes.github.io/MQTT-brokers']

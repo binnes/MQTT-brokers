@@ -18,6 +18,8 @@ docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -c -b /data/passwd dev01 pa
 docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -b /data/passwd app01 passw0rd
 docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -b /data/passwd app02 passw0rd
 docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -b /data/passwd app03 passw0rd
+docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -b /data/passwd br01 passw0rd
+docker exec -it mosquitto1 /usr/bin/mosquitto_passwd -b /data/passwd br02 passw0rd
 docker kill mosquitto1
 docker rm mosquitto1
 

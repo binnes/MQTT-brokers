@@ -1,3 +1,5 @@
 *.code-workspace
 *.ppt
 data
+
+.DS_Store
