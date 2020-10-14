@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://binnes.github.io/MQTT-brokers/index.html</loc>
+     <lastmod>2020-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://binnes.github.io/MQTT-brokers/deploy.html</loc>
+     <lastmod>2020-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://binnes.github.io/MQTT-brokers/clusteredBrokers.html</loc>
+     <lastmod>2020-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://binnes.github.io/MQTT-brokers/sharedSubscriptions.html</loc>
+     <lastmod>2020-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://binnes.github.io/MQTT-brokers/bridges.html</loc>
+     <lastmod>2020-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
